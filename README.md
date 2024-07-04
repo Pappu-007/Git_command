@@ -1,9 +1,8 @@
 # Git_command
 <br>
 
-
+<h2>Getting & Creating Projects</h2>
 <table>
-    <caption><b>Getting & Creating Projects</b></caption>
     <tr>
         <th>Command</th>
         <th>Description</th>
@@ -18,8 +17,8 @@
     </tr>
 </table>
 
+<h2>Basic Snapshotting</h2>
 <table>
-    <caption><b>Basic Snapshotting</b></caption>
     <tr>
         <th>Command</th>
         <th>Description</th>
@@ -46,8 +45,8 @@
     </tr>
 </table>
 
+<h2>Branching and Merging</h2>
 <table>
-    <caption><b>Branching & Merging</b></caption>
     <tr>
         <th>Command</th>
         <th>Description</th>
