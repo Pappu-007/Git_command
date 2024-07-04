@@ -113,3 +113,69 @@
         <td>Remove all stashed entries</td>
     </tr>
 </table>
+
+<h2>Sharing & Updating Projects</h2>
+
+<table>
+    <tr>
+        <th>Command</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>git push origin [branch name]</td>
+        <td>Push a branch to your remote repository</td>
+    </tr>
+    <tr>
+        <td>git push -u origin [branch name]</td>
+        <td>Push changes to remote repository (and remember the branch)</td>
+    </tr>
+    <tr>
+        <td>git push</td>
+        <td>Push changes to remote repository (remembered branch)</td>
+    </tr>
+    <tr>
+        <td>git push origin --delete [branch name]</td>
+        <td>Delete a remote branch</td>
+    </tr>
+    <tr>
+        <td>git pull</td>
+        <td>Update local repository to the newest commit</td>
+    </tr>
+    <tr>
+        <td>git pull origin [branch name]</td>
+        <td>Pull changes from remote repository</td>
+    </tr>
+    <tr>
+        <td>git remote add origin ssh://git@github.com/[username]/[repository-name].git</td>
+        <td>Add a remote repository</td>
+    </tr>
+    <tr>
+        <td>git remote set-url origin ssh://git@github.com/[username]/[repository-name].git</td>
+        <td>Set a repository's origin branch to SSH</td>
+    </tr>
+</table>
+
+<h2>Inspection & Comparison</h2>
+
+<table>
+    <tr>
+        <th>Command</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>git log</td>
+        <td>View changes</td>
+    </tr>
+    <tr>
+        <td>git log --summary</td>
+        <td>View changes (detailed)</td>
+    </tr>
+    <tr>
+        <td>git log --oneline</td>
+        <td>View changes (briefly)</td>
+    </tr>
+    <tr>
+        <td>git diff [source branch] [target branch]</td>
+        <td>Preview changes before merging</td>
+    </tr>
+</table>
